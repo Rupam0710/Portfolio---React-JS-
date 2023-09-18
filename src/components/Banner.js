@@ -66,8 +66,8 @@ const Banner = () => {
             >
               I am a passionate and highly motivated full-stack developer with a
               strong foundation in both front-end and back-end technologies.
-              Currently, as am a fresher my proficiency in React JS, allows me
-              to create dynamic and responsive user interfaces with ease. I am
+              Currently, as a fresher my proficiency in React JS, allows me to
+              create dynamic and responsive user interfaces with ease. I am
               well-versed in Node.js, Express.js and MongoDB, which enables me
               to create robust and efficient server-side applications.
             </motion.p>
