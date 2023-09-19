@@ -94,7 +94,10 @@ const Banner = () => {
               <a href="#">
                 <FaYoutube />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/Rupam0710?tab=repositories"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
               <a href="#">
