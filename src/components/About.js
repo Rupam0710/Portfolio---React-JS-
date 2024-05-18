@@ -12,6 +12,8 @@ import { motion } from "framer-motion";
 //variant
 import { fadeIn } from "../variants";
 
+import { Link } from "react-scroll";
+
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -39,31 +41,35 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a FreeLance Front-end Developer with over 5 years of
+              I'm a FreeLance Full-Stack Developer with over 6 months of
               experience.
             </h3>
+            {/* 34 words paragraph */}
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              commodi, totam quo asperiores velit magni deserunt nemo ipsa
-              numquam. Modi nesciunt voluptatum eos! Tempora ipsam fugit iure
-              illum, soluta consequatur libero exercitationem quas error!
+              I am a Full stack developer with experience in React JS for
+              working in frontend and Node JS , MongoDB And Express JS in
+              backend. In React JS, I can create dynamic and responsive user
+              interfaces with ease and in Node JS I can create robust and
+              efficient server-side applications. I am also a Pupil in
+              Codeforces , a 3 star in Codechef and having a rating 1598 in
+              LeetCode.
             </p>
             {/* stats  */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of
+                  Months of
                   <br />
                   Experience
                 </div>
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}
+                  {/* k+ */}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects
@@ -71,9 +77,9 @@ const About = () => {
                   Completed
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={3} duration={3} /> : null}
                   k+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -81,11 +87,13 @@ const About = () => {
                   <br />
                   Clients
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
+              <Link to="contact" activeClass="active" smooth={true} spy={true}>
+                <button className="btn btn-lg">Contact me</button>
+              </Link>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>

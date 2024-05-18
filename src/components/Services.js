@@ -12,28 +12,28 @@ import { fadeIn } from "../variants";
 //services data
 const services = [
   {
+    name: "Full Stack Development",
+    description:
+      "As a seasoned full stack developer, I possess a versatile skill set, proficiently navigating through MERN (MongoDB, Express.js, React.js, Node.js), Angular, .NET, and databases like SQL Server.",
+    link: "Learn more",
+  },
+  {
     name: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero, qui aperiam magni cum ratione soluta nobis corporis minima veritatis e quaerat, aliquam numquam",
+      "I have knowledge in styling using both Tailwind CSS and BootStrap CSS. I have used both stylings in various projects.",
     link: "Learn more",
   },
   {
-    name: "Development",
+    name: "Competitive Programmer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero, qui aperiam magni cum ratione soluta nobis corporis minima veritatis e quaerat, aliquam numquam",
+      "I have been doing competitive programming for the past 1 year on various platforms like LeetCode ,Codeforces and Codechef. I am a 3 star on Codechef with a rating of 1647, Pupil on Codeforces and rating of 1598 in LeetCode.",
     link: "Learn more",
   },
   {
-    name: "Digital Marketing",
+    name: "Youtuber",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero, qui aperiam magni cum ratione soluta nobis corporis minima veritatis e quaerat, aliquam numquam",
-    link: "Learn more",
-  },
-  {
-    name: "Product Banding",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero, qui aperiam magni cum ratione soluta nobis corporis minima veritatis e quaerat, aliquam numquam",
-    link: "Learn more",
+      "I have a youtube channel - The Third Tier Coder where I teach competitive programming to the fellow students and help them solve any doubts they have.",
+    link: "Learn More",
   },
 ];
 
@@ -69,7 +69,7 @@ const Services = () => {
             <div>
               {services.map((service, index) => {
                 //destructure service
-                const { name, description, link } = service;
+                const { name, description, link, linkRef } = service;
                 return (
                   <div
                     className="border-b border-white/20 h-[146px] mb-[38px] flex"

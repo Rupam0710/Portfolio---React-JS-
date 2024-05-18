@@ -31,7 +31,7 @@ const Work = () => {
               <p className="max-w-sm mb-16">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                 libero, qui aperiam magni cum ratione soluta nobis corporis
-                minima veritatis e quaerat, aliquam numquam
+                minima veritatis
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>

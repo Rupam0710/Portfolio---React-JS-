@@ -4,7 +4,7 @@ import React from "react";
 import Image from "../assets/rup_ava.svg";
 
 //icons
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from "react-icons/fa";
 
 //type animation
 import { TypeAnimation } from "react-type-animation";
@@ -14,6 +14,8 @@ import { motion } from "framer-motion";
 
 //variants
 import { fadeIn } from "../variants";
+
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -78,9 +80,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
+              <Link to="contact" activeClass="active" smooth={true} spy={true}>
+                <button className="btn btn-lg">Contact me</button>
+              </Link>
+              <a
+                href="https://drive.google.com/file/d/1nQv6upVGvgeIywBk1LA_HGK9F4bBVMFt/view?usp=sharing"
+                target="_blank"
+                className="text-gradient btn-link"
+              >
+                My Resume
               </a>
             </motion.div>
             {/* socials  */}
@@ -91,7 +99,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a
+                href="https://www.youtube.com/channel/UCt4iyFQadjuGmHnNaI6Yhfg"
+                target="_blank"
+              >
                 <FaYoutube />
               </a>
               <a
@@ -100,8 +111,11 @@ const Banner = () => {
               >
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaDribbble />
+              <a
+                href="https://www.linkedin.com/in/rupam-pal-0213a31a9/"
+                target="_blank"
+              >
+                <FaLinkedin />
               </a>
             </motion.div>
           </div>
