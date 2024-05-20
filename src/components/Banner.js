@@ -66,12 +66,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I am a passionate and highly motivated full-stack developer with a
+              {/* I am a passionate and highly motivated full-stack developer with a
               strong foundation in both front-end and back-end technologies.
               Currently, as a fresher my proficiency in React JS, allows me to
               create dynamic and responsive user interfaces with ease. I am
               well-versed in Node.js, Express.js and MongoDB, which enables me
-              to create robust and efficient server-side applications.
+              to create robust and efficient server-side applications. */}
+              I am a passionate and highly motivated full-stack developer currently working in Angular
+              in frontend with Dot Net Core in backend in Euromonitor International. I also have expertise in
+              MERN stack having worked on multiple projects. I also teach students about competitive programming through
+              my youtube channel and help them in their interview preparation. 
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -84,7 +88,7 @@ const Banner = () => {
                 <button className="btn btn-lg">Contact me</button>
               </Link>
               <a
-                href="https://drive.google.com/file/d/1nQv6upVGvgeIywBk1LA_HGK9F4bBVMFt/view?usp=sharing"
+                href="https://drive.google.com/file/d/16GpW7RvSC1m7M-2EbpeSGoXENKINRVqi/view?usp=drivesdk"
                 target="_blank"
                 className="text-gradient btn-link"
               >

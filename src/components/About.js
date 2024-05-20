@@ -41,24 +41,28 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a FreeLance Full-Stack Developer with over 6 months of
+              I'm a Full-Stack Developer with over 8 months of
               experience.
             </h3>
             {/* 34 words paragraph */}
             <p className="mb-6">
-              I am a Full stack developer with experience in React JS for
+              I am a Full stack developer currently working in Angular in frontend and
+              Dotnet Core and SQL in backend . I also perform testing in both frontend and backend.
+              I also have experience in React JS for
               working in frontend and Node JS , MongoDB And Express JS in
               backend. In React JS, I can create dynamic and responsive user
               interfaces with ease and in Node JS I can create robust and
               efficient server-side applications. I am also a Pupil in
               Codeforces , a 3 star in Codechef and having a rating 1598 in
               LeetCode.
+
+
             </p>
             {/* stats  */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={9} duration={2} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Months of
@@ -68,8 +72,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}
-                  {/* k+ */}
+                  {inView ? <CountUp start={0} end={20} duration={2} /> : null}
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects

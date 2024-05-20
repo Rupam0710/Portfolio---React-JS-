@@ -14,28 +14,34 @@ const services = [
   {
     name: "Full Stack Development",
     description:
-      "As a seasoned full stack developer, I possess a versatile skill set, proficiently navigating through MERN (MongoDB, Express.js, React.js, Node.js), Angular, .NET, and databases like SQL Server.",
+      "As a seasoned full stack developer, I possess a versatile skill set, proficiently navigating through Angular , Dotnet Core and  MERN (MongoDB, Express.js, React.js, Node.js), Angular, .NET, and databases like SQL Server.",
     link: "Learn more",
-  },
-  {
-    name: "UI/UX Design",
-    description:
-      "I have knowledge in styling using both Tailwind CSS and BootStrap CSS. I have used both stylings in various projects.",
-    link: "Learn more",
+    hrefLink : "https://github.com/Rupam0710",
   },
   {
     name: "Competitive Programmer",
     description:
       "I have been doing competitive programming for the past 1 year on various platforms like LeetCode ,Codeforces and Codechef. I am a 3 star on Codechef with a rating of 1647, Pupil on Codeforces and rating of 1598 in LeetCode.",
     link: "Learn more",
+    hrefLink: "https://www.stopstalk.com/user/profile/Rupam0710",
   },
   {
     name: "Youtuber",
     description:
       "I have a youtube channel - The Third Tier Coder where I teach competitive programming to the fellow students and help them solve any doubts they have.",
     link: "Learn More",
+    hrefLink : "https://www.youtube.com/channel/UCt4iyFQadjuGmHnNaI6Yhfg",
   },
+  {
+    name: "UI/UX Design",
+    description:
+      "I have knowledge in styling using both Tailwind CSS and BootStrap CSS. I have used both stylings in various projects.",
+    link: "Learn more",
+    hrefLink : "https://github.com/Rupam0710",
+  }
 ];
+
+
 
 const Services = () => {
   return (
@@ -52,10 +58,14 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a FreeLance Front-end Developer with over 5 years of
-              experience.
+              I'm a Software Developer 1 currently working at Euromonitor International. 
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button 
+            className="btn btn-sm"
+            onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
+            >See my work
+            </button>
+            
           </motion.div>
           {/* services  */}
           <motion.div
@@ -69,7 +79,7 @@ const Services = () => {
             <div>
               {services.map((service, index) => {
                 //destructure service
-                const { name, description, link, linkRef } = service;
+                const { name, description, link,hrefLink} = service;
                 return (
                   <div
                     className="border-b border-white/20 h-[146px] mb-[38px] flex"
@@ -85,12 +95,17 @@ const Services = () => {
                     </div>
                     <div className="flex flex-col flex-1 items-end">
                       <a
-                        href="#"
+                        href={hrefLink}
+                        target="_blank"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="text-gradient text-sm">
+                      <a 
+                      href={hrefLink}
+                      target="_blank"
+                       className="text-gradient text-sm"
+                       >
                         {link}
                       </a>
                     </div>
