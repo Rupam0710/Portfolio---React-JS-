@@ -29,8 +29,9 @@ const Work = () => {
                 My latest <br /> Work.
               </h2>
               <p className="max-w-sm mb-16">
-                My latest work consists of iNoteBook -  MERN stack application , 
-                E-commerce application - Angular & JSON and Employee Management System. 
+                Featured projects include Sprint Risk Predictor and an Angular
+                E-Commerce Application, with focus on measurable outcomes,
+                strong architecture, and practical product delivery.
               </p>
               <button 
               className="btn btn-sm"
@@ -42,26 +43,26 @@ const Work = () => {
               {/* overlay  */}
               <div 
               className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/inotebook---MERN-stack-App', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               ></div>
               {/* img  */}
               <img
                 className="group-hover:scale-125 transition-all duration-500 cursor-pointer"
-                onClick={() => window.open('https://github.com/Rupam0710/inotebook---MERN-stack-App', '_blank')}
+                onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
                 src={Img1}
                 alt=""
               />
               {/* pretitle  */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/inotebook---MERN-stack-App', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               >
-                <span className="text-gradient">MERN Stack</span>
+                <span className="text-gradient">ML.NET, Groq, Gemini, Azure DevOps, C#</span>
               </div>
               {/* title  */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/inotebook---MERN-stack-App', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               >
-                <span className="text-3xl text-white">iNoteBook</span>
+                <span className="text-3xl text-white">Sprint Risk Predictor (97.8%)</span>
               </div>
             </div>
           </motion.div>
@@ -91,39 +92,39 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 cursor-pointer"
               onClick={() => window.open('https://github.com/Rupam0710/E-Commerce--Angular-Application', '_blank')}
               >
-                <span className="text-gradient">Angular and JSON Server</span>
+                <span className="text-gradient">Angular, TypeScript, JSON Server, Razorpay</span>
               </div>
               {/* title  */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 cursor-pointer"
               onClick={() => window.open('https://github.com/Rupam0710/E-Commerce--Angular-Application', '_blank')}
               >
-                <span className="text-3xl text-white" >E-Commerce Application</span>
+                <span className="text-3xl text-white" >E-Commerce Application (Checkout + Payments)</span>
               </div>
             </div>
             {/* image  */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay  */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/Employee-Management-System', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               ></div>
               {/* img  */}
               <img
                 className="group-hover:scale-125 transition-all duration-500 cursor-pointer"
-                onClick={() => window.open('https://github.com/Rupam0710/Employee-Management-System', '_blank')}
+                onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
                 src={Img3}
                 alt=""
               />
               {/* pretitle  */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/Employee-Management-System', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               >
-                <span className="text-gradient">Angular , Dotnet Web API, NgRx Store</span>
+                <span className="text-gradient">Microsoft Entra ID, OAuth 2.0, RBAC, Azure DevOps</span>
               </div>
               {/* title  */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 cursor-pointer"
-              onClick={() => window.open('https://github.com/Rupam0710/Employee-Management-System', '_blank')}
+              onClick={() => window.open('https://github.com/Rupam0710', '_blank')}
               >
-                <span className="text-3xl text-white">Employee Management System</span>
+                <span className="text-3xl text-white">EMMA Platform Security and Delivery</span>
               </div>
             </div>
           </motion.div>

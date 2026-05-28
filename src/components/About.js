@@ -41,57 +41,86 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a Full-Stack Developer with over 8 months of
-              experience.
+              Full Stack Developer focused on enterprise products, cloud
+              delivery, and AI-driven engineering outcomes.
             </h3>
-            {/* 34 words paragraph */}
             <p className="mb-6">
-              I am a Full stack developer currently working in Angular in frontend and
-              Dotnet Core and SQL in backend . I also perform testing in both frontend and backend.
-              I also have experience in React JS for
-              working in frontend and Node JS , MongoDB And Express JS in
-              backend. In React JS, I can create dynamic and responsive user
-              interfaces with ease and in Node JS I can create robust and
-              efficient server-side applications. I am also a Pupil in
-              Codeforces , a 3 star in Codechef and having a rating 1598 in
-              LeetCode.
-
-
+              I currently work as an SDE-2 at Euromonitor International,
+              designing secure and scalable web platforms using Angular,
+              ASP.NET Core, C#, SQL Server, and Microsoft Azure. My work spans
+              architecture, CI/CD automation, RBAC design, API development, and
+              test automation in Agile teams.
             </p>
+            <div className="mb-6">
+              <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-3">
+                Experience
+              </h4>
+              <ul className="font-secondary leading-tight list-disc pl-5 space-y-2">
+                <li>
+                  <strong>
+                    Software Development Engineer 2, Euromonitor International
+                    (Apr 2025 - Present)
+                  </strong>
+                  : Integrated Microsoft Entra ID with OAuth 2.0 and OpenID
+                  Connect, designed RBAC across frontend and APIs, led Azure
+                  Front Door Classic to Premium migration, built Azure DevOps
+                  CI/CD pipelines, delivered Cypress E2E suites, and optimized
+                  SQL stored procedures.
+                </li>
+                <li>
+                  <strong>
+                    Software Development Engineer 1, Euromonitor International
+                    (Feb 2024 - Apr 2025)
+                  </strong>
+                  : Built full stack EMMA features with Angular and ASP.NET
+                  Core, improved frontend performance using Web Workers,
+                  developed CQRS-based .NET APIs, and optimized SQL Server
+                  schemas.
+                </li>
+                <li>
+                  <strong>
+                    SDE-1 Intern, Euromonitor International (Oct 2023 - Jan
+                    2024)
+                  </strong>
+                  : Developed e-commerce features using Angular and .NET Core,
+                  and gained hands-on experience in REST APIs, Agile practices,
+                  and full stack debugging.
+                </li>
+              </ul>
+            </div>
             {/* stats  */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={9} duration={2} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={2} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Months of
+                  Years of
                   <br />
                   Experience
                 </div>
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={20} duration={2} /> : null}
-                  +
+                  {inView ? <CountUp start={0} end={97} duration={2} /> : null}
+                  .8%
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Projects
+                  Sprint Risk
                   <br />
-                  Completed
+                  Prediction Accuracy
                 </div>
               </div>
-              {/* <div>
+              <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={3} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={2} duration={2} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied
+                  Azure
                   <br />
-                  Clients
+                  Certifications
                 </div>
-              </div> */}
+              </div>
             </div>
 
             <div className="flex gap-x-8 items-center">

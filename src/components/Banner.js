@@ -1,7 +1,7 @@
 import React from "react";
 
 //images
-import Image from "../assets/rup_ava.svg";
+import Image from "../assets/rup_ava1.jpg";
 
 //icons
 import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from "react-icons/fa";
@@ -46,11 +46,11 @@ const Banner = () => {
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Full Stack Developer",
                   2000,
-                  "Designer",
+                  "SDE-2",
                   2000,
-                  "Youtuber",
+                  "Azure Certified Developer",
                   2000,
                 ]}
                 speed={50}
@@ -66,16 +66,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              {/* I am a passionate and highly motivated full-stack developer with a
-              strong foundation in both front-end and back-end technologies.
-              Currently, as a fresher my proficiency in React JS, allows me to
-              create dynamic and responsive user interfaces with ease. I am
-              well-versed in Node.js, Express.js and MongoDB, which enables me
-              to create robust and efficient server-side applications. */}
-              I am a passionate and highly motivated full-stack developer currently working in Angular
-              in frontend with Dot Net Core in backend in Euromonitor International. I also have expertise in
-              MERN stack having worked on multiple projects. I also teach students about competitive programming through
-              my youtube channel and help them in their interview preparation. 
+              Full Stack Developer with 2+ years of experience at Euromonitor
+              International, building scalable enterprise applications with
+              Angular, ASP.NET Core, C#, and SQL Server. AZ-204 certified with
+              hands-on expertise in Azure architecture, CI/CD with Azure DevOps,
+              and enterprise authentication using Microsoft Entra ID, OAuth 2.0,
+              and RBAC.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -88,8 +84,9 @@ const Banner = () => {
                 <button className="btn btn-lg">Contact me</button>
               </Link>
               <a
-                href="https://drive.google.com/file/d/16GpW7RvSC1m7M-2EbpeSGoXENKINRVqi/view?usp=drivesdk"
+                href="/Rupam-Pal-Resume-May-2026.pdf"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gradient btn-link"
               >
                 My Resume
@@ -130,7 +127,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={Image} alt="" />
+            <img src={Image} alt="" className="rounded-2xl" />
           </motion.div>
         </div>
       </div>

@@ -12,30 +12,30 @@ import { fadeIn } from "../variants";
 //services data
 const services = [
   {
-    name: "Full Stack Development",
+    name: "Frontend",
     description:
-      "As a seasoned full stack developer, I possess a versatile skill set, proficiently navigating through Angular , Dotnet Core and  MERN (MongoDB, Express.js, React.js, Node.js), Angular, .NET, and databases like SQL Server.",
+      "Angular, React, HTML5, CSS3, TypeScript, and JavaScript for responsive enterprise interfaces and maintainable component-driven UIs.",
     link: "Learn more",
     hrefLink : "https://github.com/Rupam0710",
   },
   {
-    name: "Competitive Programmer",
+    name: "Backend",
     description:
-      "I have been doing competitive programming for the past 1 year on various platforms like LeetCode ,Codeforces and Codechef. I am a 3 star on Codechef with a rating of 1647, Pupil on Codeforces and rating of 1598 in LeetCode.",
+      "ASP.NET Core, .NET Core, C#, REST API development, Entity Framework Core, CQRS patterns, and Node.js for scalable service architecture.",
     link: "Learn more",
-    hrefLink: "https://www.stopstalk.com/user/profile/Rupam0710",
+    hrefLink: "https://github.com/Rupam0710",
   },
   {
-    name: "Youtuber",
+    name: "Cloud, DevOps and Security",
     description:
-      "I have a youtube channel - The Third Tier Coder where I teach competitive programming to the fellow students and help them solve any doubts they have.",
+      "Microsoft Azure, Azure App Services, Azure DevOps, Azure Pipelines, CI/CD, Microsoft Entra ID, OAuth 2.0, OpenID Connect, and RBAC.",
     link: "Learn More",
-    hrefLink : "https://www.youtube.com/channel/UCt4iyFQadjuGmHnNaI6Yhfg",
+    hrefLink : "https://www.linkedin.com/in/rupam-pal-0213a31a9/",
   },
   {
-    name: "UI/UX Design",
+    name: "Data, AI/ML, Testing and Tools",
     description:
-      "I have knowledge in styling using both Tailwind CSS and BootStrap CSS. I have used both stylings in various projects.",
+      "SQL Server, T-SQL, stored procedures, MongoDB, ML.NET FastForest, Groq Llama 3.3, Gemini 2.5 Flash, Cypress, Postman, Swagger, Scalar, Git, Agile, and Scrum.",
     link: "Learn more",
     hrefLink : "https://github.com/Rupam0710",
   }
@@ -58,7 +58,8 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Software Developer 1 currently working at Euromonitor International. 
+              I build secure, cloud-ready full stack products with strong focus
+              on delivery quality and performance.
             </h3>
             <button 
             className="btn btn-sm"
