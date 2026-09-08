@@ -4,7 +4,7 @@ import React from "react";
 import Image from "../assets/rup_ava1.jpg";
 
 //icons
-import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLaptopCode, FaCode } from "react-icons/fa";
 
 //type animation
 import { TypeAnimation } from "react-type-animation";
@@ -46,11 +46,13 @@ const Banner = () => {
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
+                  "AI Engineer",
+                  2000,
                   "Full Stack Developer",
                   2000,
-                  "SDE-2",
+                  "RAG and Agentic AI Builder",
                   2000,
-                  "Azure Certified Developer",
+                  "SDE-2",
                   2000,
                 ]}
                 speed={50}
@@ -66,12 +68,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Full Stack Developer with 2+ years of experience at Euromonitor
-              International, building scalable enterprise applications with
-              Angular, ASP.NET Core, C#, and SQL Server. AZ-204 certified with
-              hands-on expertise in Azure architecture, CI/CD with Azure DevOps,
-              and enterprise authentication using Microsoft Entra ID, OAuth 2.0,
-              and RBAC.
+              AI Engineer and Full Stack Developer with 3+ years of experience
+              building enterprise systems and AI-powered products. I work across
+              React, Angular, ASP.NET Core, FastAPI, Azure, AKS, and modern LLM
+              stacks including LangChain, LangGraph, and multimodal AI APIs.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -84,7 +84,7 @@ const Banner = () => {
                 <button className="btn btn-lg">Contact me</button>
               </Link>
               <a
-                href="/Rupam-Pal-Resume-May-2026.pdf"
+                href="/Rupam_Pal_08-_sept_resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gradient btn-link"
@@ -101,22 +101,32 @@ const Banner = () => {
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               <a
-                href="https://www.youtube.com/channel/UCt4iyFQadjuGmHnNaI6Yhfg"
+                href="https://github.com/Rupam0710"
                 target="_blank"
-              >
-                <FaYoutube />
-              </a>
-              <a
-                href="https://github.com/Rupam0710?tab=repositories"
-                target="_blank"
+                rel="noreferrer"
               >
                 <FaGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/rupam-pal-0213a31a9/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin />
+              </a>
+              <a
+                href="https://leetcode.com/u/Rupam0710/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaCode />
+              </a>
+              <a
+                href="https://takeuforward.org/profile/rupam_0710"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLaptopCode />
               </a>
             </motion.div>
           </div>
@@ -127,7 +137,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={Image} alt="" className="rounded-2xl" />
+            <img src={Image} alt="Rupam Pal" className="rounded-2xl" />
           </motion.div>
         </div>
       </div>

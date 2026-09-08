@@ -4,7 +4,7 @@ import React from "react";
 import CountUp from "react-countup";
 
 //intersection observer hook
-import { InView, useInView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer";
 
 //motion
 import { motion } from "framer-motion";
@@ -41,15 +41,16 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              Full Stack Developer focused on enterprise products, cloud
-              delivery, and AI-driven engineering outcomes.
+              AI Engineer and Full Stack Developer focused on enterprise
+              platforms, agentic AI, and cloud-native delivery.
             </h3>
             <p className="mb-6">
               I currently work as an SDE-2 at Euromonitor International,
-              designing secure and scalable web platforms using Angular,
-              ASP.NET Core, C#, SQL Server, and Microsoft Azure. My work spans
-              architecture, CI/CD automation, RBAC design, API development, and
-              test automation in Agile teams.
+              building secure and scalable products with React, Angular,
+              ASP.NET Core, FastAPI, SQL Server, and Microsoft Azure. My work
+              includes RAG and agentic AI use cases, CI/CD automation, RBAC,
+              cloud deployments on AKS, and full stack architecture in Agile
+              teams.
             </p>
             <div className="mb-6">
               <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-3">
@@ -61,30 +62,30 @@ const About = () => {
                     Software Development Engineer 2, Euromonitor International
                     (Apr 2025 - Present)
                   </strong>
-                  : Integrated Microsoft Entra ID with OAuth 2.0 and OpenID
-                  Connect, designed RBAC across frontend and APIs, led Azure
-                  Front Door Classic to Premium migration, built Azure DevOps
-                  CI/CD pipelines, delivered Cypress E2E suites, and optimized
-                  SQL stored procedures.
+                  : Built an agentic AI sprint analytics platform with ML.NET
+                  FastForest and LLM APIs, delivered the North Star Delivery
+                  Report dashboard, and implemented secure key management,
+                  backend proxying, and AKS deployments with Docker, Helm, and
+                  Azure Pipelines.
                 </li>
                 <li>
                   <strong>
                     Software Development Engineer 1, Euromonitor International
                     (Feb 2024 - Apr 2025)
                   </strong>
-                  : Built full stack EMMA features with Angular and ASP.NET
-                  Core, improved frontend performance using Web Workers,
-                  developed CQRS-based .NET APIs, and optimized SQL Server
-                  schemas.
+                  : Developed scalable EMMA full stack features using Angular,
+                  ASP.NET Core Web API, C#, Entity Framework, and SQL Server;
+                  built REST APIs with CQRS and improved data layer
+                  performance and reliability.
                 </li>
                 <li>
                   <strong>
                     SDE-1 Intern, Euromonitor International (Oct 2023 - Jan
                     2024)
                   </strong>
-                  : Developed e-commerce features using Angular and .NET Core,
-                  and gained hands-on experience in REST APIs, Agile practices,
-                  and full stack debugging.
+                  : Built e-commerce and platform features using Angular and
+                  .NET Core REST APIs while contributing to Agile delivery and
+                  full stack issue resolution.
                 </li>
               </ul>
             </div>
@@ -92,23 +93,12 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={2} duration={2} /> : null}+
+                  {inView ? <CountUp start={0} end={3} duration={2} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of
                   <br />
                   Experience
-                </div>
-              </div>
-              <div>
-                <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={97} duration={2} /> : null}
-                  .8%
-                </div>
-                <div className="font-primary text-sm tracking-[2px]">
-                  Sprint Risk
-                  <br />
-                  Prediction Accuracy
                 </div>
               </div>
               <div>
@@ -127,8 +117,13 @@ const About = () => {
               <Link to="contact" activeClass="active" smooth={true} spy={true}>
                 <button className="btn btn-lg">Contact me</button>
               </Link>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
+              <a
+                href="https://github.com/Rupam0710"
+                target="_blank"
+                rel="noreferrer"
+                className="text-gradient btn-link"
+              >
+                GitHub Overview
               </a>
             </div>
           </motion.div>

@@ -47,6 +47,54 @@ const Contact = () => {
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
                 Let's work <br /> together!!
               </h2>
+              <div className="space-y-3 font-secondary">
+                <p>
+                  Email: <span className="text-accent">rupampalofficial48@gmail.com</span>
+                </p>
+                <p>
+                  Phone: <span className="text-accent">+91 9830751540</span>
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/Rupam0710"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    GitHub Overview
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/rupam-pal-0213a31a9/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    LinkedIn Profile
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://leetcode.com/u/Rupam0710/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    LeetCode Profile
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://takeuforward.org/profile/rupam_0710"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    TakeUForward Profile
+                  </a>
+                </p>
+              </div>
             </div>
           </motion.div>
           {/* form  */}
@@ -77,7 +125,7 @@ const Contact = () => {
               name="message"
             ></textarea>
             <button className="btn btn-lg" type="submit">
-              Send messgae
+              Send message
             </button>
           </motion.form>
         </div>

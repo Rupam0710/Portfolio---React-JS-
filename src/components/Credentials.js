@@ -19,7 +19,7 @@ const Credentials = () => {
           >
             <h2 className="h2 text-accent mb-4">Credentials.</h2>
             <h3 className="h3 max-w-[720px]">
-              Certifications, education, and competitive programming achievements.
+              Certifications, education, and coding profiles.
             </h3>
           </motion.div>
 
@@ -67,15 +67,112 @@ const Credentials = () => {
               className="border border-white/20 rounded-2xl p-6"
             >
               <h4 className="text-[22px] tracking-wider font-primary font-semibold mb-4">
-                Achievements
+                Coding Profiles
               </h4>
-              <ul className="font-secondary leading-tight list-disc pl-5 space-y-3">
-                <li>CodeChef Starters 82 Div 3 - Global Rank 186</li>
-                <li>CodeChef Starters 83 Div 3 - Global Rank 271</li>
-                <li>Codeforces Round 865 Div 2 - Global Rank 2402</li>
+              <ul className="font-secondary leading-tight list-disc pl-5 space-y-3 break-words">
+                <li>
+                  <a
+                    href="https://leetcode.com/u/Rupam0710/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    LeetCode: leetcode.com/u/Rupam0710
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://takeuforward.org/profile/rupam_0710"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gradient"
+                  >
+                    TakeUForward: takeuforward.org/profile/rupam_0710
+                  </a>
+                </li>
+                <li>Also active on Codeforces, CodeChef, and StopStalk.</li>
               </ul>
             </motion.div>
           </div>
+
+          <motion.div
+            variants={fadeIn("up", 0.7)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="border border-white/20 rounded-2xl p-6"
+          >
+            <h4 className="text-[22px] tracking-wider font-primary font-semibold mb-4">
+              Open Source Contributions
+            </h4>
+            <p className="font-secondary mb-4">
+              Active contributor to AI and developer tooling repositories with
+              focus on practical agentic workflows, RAG patterns, and
+              production-ready engineering.
+            </p>
+            <ul className="font-secondary leading-tight list-disc pl-5 space-y-3 break-words">
+              <li>
+                <a
+                  href="https://github.com/Shubhamsaboo/awesome-llm-apps"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  awesome-llm-apps
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/cathrynlavery/diagram-design"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  diagram-design
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/THU-MAIC/OpenMAIC"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  OpenMAIC
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/GoogleCloudPlatform/knowledge-catalog"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  knowledge-catalog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/docling-project/docling"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  docling
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Rupam0710/ai-cookbook"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gradient"
+                >
+                  ai-cookbook
+                </a>
+              </li>
+            </ul>
+          </motion.div>
         </div>
       </div>
     </section>
